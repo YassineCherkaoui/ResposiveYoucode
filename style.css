@@ -1,0 +1,235 @@
+*{
+    font-family: sans-serif;
+}
+body{
+   margin: 0px;
+ 
+}
+
+.nav img{
+    position: fixed;
+    left: 175px;
+    width: 40x;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+      z-index: 1;
+}
+.nav{
+    position: fixed;
+    background-color: black;
+    border-bottom: 2px solid #000000;
+    text-align: right;
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+      z-index: 1;
+}
+.menu{
+ margin: 0 110px 0 0 ;
+   
+}
+
+.B2{
+    background-color: #038DFE;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 20px;
+    width: 200px;
+    position: relative;
+    box-shadow: -3px 5px 48px 3px blue;
+    left: 73px;
+    top: -150px;
+}
+.menu a
+{   
+    color: white;
+    font-size: 14px; 
+    
+    margin: 0 80px 0 20px;
+    line-height: 60px;
+    
+    text-decoration: none;
+    
+}
+
+button{ 
+    
+    background-color: #038DFE;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 20px;
+    width: 200px;
+    position: relative;
+    
+    box-shadow: -3px 5px 48px 3px blue;
+    left: 73px;
+}
+button:hover{
+    background-color: white;
+    color: gray;
+    transform: translateY(-7px); 
+}
+span{
+    color: #54D17A;
+}
+label{
+    color: white;
+    margin: 0 40px 0 0;
+   font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle{
+    display:none;
+}
+.title{
+    
+    font-size: 24px;
+    color: white;
+    background-image: url("image/slide1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    margin-left: -10px;
+    padding: 160px;
+    letter-spacing: 2px; 
+}
+.BI{
+    padding: 15px 72px;
+    border: 1.5px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    top: -156px;
+    margin-left: 178px;
+    background-color: transparent;
+    
+}
+.BI:hover{
+    background-color: white;
+    color: gray;
+    transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 1250px){
+    label {
+        display: block;
+        cursor: pointer;
+    }
+   
+    .menu img{
+    position: fixed;
+    left: 175px;
+        top:6px;
+    width: 40x;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+     
+    
+}
+    .menu  {
+        text-align: center;
+        width: 100%;
+       
+        
+        display: none;
+    }
+    .menu a {
+        display:block;
+        border-bottom:1px solid #EAEAEB;
+        margin:0;
+        
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .menu a:hover{
+        background: #038DFE;
+    }
+    #toggle:checked + .menu{
+        display: block;
+         
+    }
+    .menu button{ 
+    
+    background-color:#038DFE;
+    color: white;
+    
+    border: 0px;
+    font-size: 20px;
+   
+    padding: 10px;
+    
+    border-radius: 20px;
+    width:200px;
+    top: -11px;
+    left: 3px;
+}
+    .menu button:hover {
+        background-color: white;
+        color: black;
+        transform: translateY(-7px);  
+    }
+   
+    .title h2{
+        font-size: 170%;
+    }
+    
+    .title p{
+        font-size: 100%;
+        
+       
+    }
+    .BI{
+        padding: 15px 72px;
+        border: 1.5px solid white;
+        text-decoration: none;
+        color: white;
+        border-radius: 30px;
+        position: relative;
+        top: -156px;
+        margin-left: 178px;
+        background-color: transparent;
+    }
+    .BI:hover{
+        background-color: white;
+        color: gray;
+        transform: translateY(-7px);
+    }
+    .B2{
+        background-color: #038DFE;
+        color: white;
+        border: 0px;
+        font-size: 20px;
+        padding: 11px;
+        border-radius: 20px;
+        width: 200px;
+        position: relative;
+        box-shadow: -3px 5px 48px 3px blue;
+        left: 73px;
+        top: -150px;
+    }
+
+    
+    .title{
+  
+    font-size: 18px;
+       
+        text-align: center;
+    color: white;
+    background-image: url("image/slide1.jpg");
+    background-size: cover;
+    background-position: center;
+    line-height: 30px;
+    padding: 160px;
+    letter-spacing: 3px; 
+}
+}
+
